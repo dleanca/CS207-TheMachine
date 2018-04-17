@@ -7,7 +7,6 @@ This repository is used for tracking the progress of the final project for the C
 
 * **/src** - This is where you can find the code that needs to be uploaded on the arduino (.ino).
 * **/hardware** - All the PCB design files  and needed 3D models (.ftz, .stl).
-* **/examples** - Example files that can be run on the cutter hardware.
 * **/img** - This is where the image files for this readme are!
 * **/LICENSE** - The license file.
 * **/README.md** - The file you're reading now! xD
