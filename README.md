@@ -4,30 +4,37 @@ This repository is used for tracking the progress of the final project for the C
 
 
 # Repository Contents
-Here's where you'll provide a map of all the top-level contents (where applicable):
 
-* **/src** - Here's where the software for your device goes (.ino, .cpp).
-* **/hardware** - All the PCB design files / 3D models (.ftz, .brd, .sch, .stl).
-* **/build** - Files that are compiled and ready to run / upload.
-* **/libraries** - Any libraries that are needed to build your software for your device.
-* **/examples** - Example files that can be run on your hardware.
-* **/img** - This is where the image files for this readme are! Yay!
+* **/src** - This is where you can find the code that needs to be uploaded on the arduino (.ino).
+* **/hardware** - All the PCB design files  and needed 3D models (.ftz, .stl).
+* **/examples** - Example files that can be run on the cutter hardware.
+* **/img** - This is where the image files for this readme are!
 * **/LICENSE** - The license file.
-* **/README.md** - The file you're reading now! :-D
+* **/README.md** - The file you're reading now! xD
 
 # Requirements and Materials
-This is where you talk about what sort of libraries are required and what sort of hardware is needed:
-
-# Dependencies:
-https://github.com/tyhenry/CheapStepper
-important libraries that need to be installed (stepper high torque)
+No additional libraries are needed except ones that are readily available in arduino
+<liquidCrystal.h>
+<Servo.h>
 
 # Bill of Materials:
+* 4x push buttons
+* 1x 10k potentiometer
+* 1x Arduino Uno
+* 1x Nema 17 Stepper Motor with the extruder adapter installed
+* 1x 4988 Stepper driver board
+* 1x 9 or 12V power supply
+* 1x DC to DC variable power converter
+* 1x 1602 Character LCD display
+* jumper wires
+* 1x High torque Servo motor (270 degrees of rotation)
 
 # Build Instructions:
 
-# Firmware Installation
 
+# Firmware Installation
+  No special steps are needed for the installation.
+  With that said, make sure the correct port is selected in the arduino IDE!
 
 # The build team consists of:
 
@@ -35,3 +42,4 @@ important libraries that need to be installed (stepper high torque)
 
 # Credits
 * EscapeClubEscapeRooms - letting me have a stepper motor and other misc items.
+* IEEE - for allowing me to use their spare extruder and 3d printer (after it being fixed by yours truly xD)
